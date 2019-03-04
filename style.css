@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+	background-image: url('https://www.computer.org/cms/Computer.org/ComputingNow/marketing/startup.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-size: cover;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
+  	align-items: center;
+   /*	border: 2px solid pink;*/
+   	  }
+.maintext {
+	color: #0F454F;
+	font-size: 70px;
+	font-family: 'Srisakdi', cursive;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	text-align: center;
+}
+
+.mybutton {
+/*	align-self: center;*/
+	margin: 30px;
+	font-family: 'Srisakdi', cursive;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	width: 200px;
+	padding: 1rem 2rem; 
+	border-radius: 200px;
+	font-size: 25px;
+}
+.mybutton:hover {
+	background-color: #0F454F;
+	transition: all 1s;
+	border: 3px solid #6A959D;
+}
